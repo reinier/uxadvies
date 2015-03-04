@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="22px" viewBox="0 0 45 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Triangle 1 + Triangle 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Triangle-1-+-Triangle-3" sketch:type="MSLayerGroup" transform="translate(23.500000, 3.000000) scale(-1, 1) translate(-23.500000, -3.000000) translate(1.000000, -18.000000)">
+            <path d="M0.924501249,18.4033053 L45.417177,23.1210858 L39.6817457,28.3901438 L35.7159293,37.140202 L32.536704,35.2971426 L27.8780484,39.7010224 L0.924501249,18.4033053 L0.924501249,18.4033053 Z" id="Triangle-1" fill="#79E0FF" sketch:type="MSShapeGroup"></path>
+            <path d="M39.6842226,28.3973304 L35.7111123,37.1386746 L32.5366975,35.3043838 L39.6842226,28.3973304 L39.6842226,28.3973304 Z" id="Triangle-2" fill="#287F99" sketch:type="MSShapeGroup"></path>
+            <path d="M0.952274395,18.4047299 L39.6829613,28.3925412 L35.7167964,37.1404606 L34.2448984,33.6479384 L0.952274395,18.4047299 L0.952274395,18.4047299 Z" id="Triangle-2" fill="#29A1C5" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

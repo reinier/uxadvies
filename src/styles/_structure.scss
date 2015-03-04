@@ -1,0 +1,69 @@
+.page-part,
+footer,
+section[role="main"] {
+  max-width: $page-width;
+  margin: 0 auto;
+
+  @include bigass {
+    max-width: $page-width-bigass;
+  }
+}
+
+section[role="main"] {
+  padding: 1em 1em 5em;
+}
+
+.page-part, footer {
+  padding: 3em 1em;
+
+  @include desktop {
+    padding: 3em 0;
+  }
+
+  @include bigass {
+    padding: 4em 0;
+  }
+}
+
+.infocard-wrap {
+  color: #fff;
+  background-color: #2E3B55;
+
+  a {
+    color: #79E0FF;
+  }
+}
+
+.examples-wrap {
+  background-color: #FF6464;
+  color: #fff;
+
+  a {
+    color: #2E3B55;
+  }
+
+  @include desktop {
+    .page-part {
+      background-color: rgba(0,0,0,0.1);
+    }
+  }
+}
+
+.contact-wrap {
+  background-color: #444;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}
+
+.footer-wrap {
+  background-color: #eaeaea;
+
+  color: #000;
+
+  a {
+    color: #003AB4;
+  }
+}
