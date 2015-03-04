@@ -15,12 +15,11 @@ module.exports = {
     dest: build,
     dist: dist,
     sass: {
-      loadPath: [
+      includePaths: [
         bower_components+'bourbon/app/assets/stylesheets',
         bower_components+'neat/app/assets/stylesheets',
         src+'styles/'
-      ],
-      quiet: true
+      ]
     }
   },
 

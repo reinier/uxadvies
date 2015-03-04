@@ -3,14 +3,10 @@ This is the source code for the website [uxadvies.nl](http://uxadvies.nl)
 # Development instructions
 
 ## Needed on your computer:
-- Ruby
-- Sass
 - Node
-- Bower
 
 ## Run when starting:
 - `npm install`
-- `bower install`
 
 ## Run when developing:
 - `gulp`
