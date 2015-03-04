@@ -10,7 +10,7 @@ gulp.task('images', function () {
     svgoPlugins: [{removeViewBox: false}],
     use: [pngquant()]
   }))
-  .pipe(gulp.dest(config.dest));
+  .pipe(gulp.dest(config.build));
 });
 
 gulp.task('images:dist', ['clean:dist'], function () {

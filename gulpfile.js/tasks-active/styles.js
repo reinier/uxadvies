@@ -9,7 +9,7 @@ gulp.task('styles', function() {
     .on('error', function (err) {
       console.log(err.message);
     })
-    .pipe(gulp.dest(config.dest))
+    .pipe(gulp.dest(config.build))
     .pipe(connect.reload());
 });
 

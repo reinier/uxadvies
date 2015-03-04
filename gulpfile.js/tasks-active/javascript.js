@@ -3,7 +3,7 @@ var config    = require('../config').javascript;
 
 gulp.task('javascript', function() {
   gulp.src(config.source)
-    .pipe(gulp.dest(config.dest));
+    .pipe(gulp.dest(config.build));
 });
 
 gulp.task('javascript:dist', ['clean:dist'], function() {

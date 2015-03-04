@@ -12,7 +12,7 @@ gulp.task('templates', function() {
       },
       defaults: { cache: false }
     }))
-    .pipe(gulp.dest(config.dest))
+    .pipe(gulp.dest(config.build))
     .pipe(connect.reload());
 });
 

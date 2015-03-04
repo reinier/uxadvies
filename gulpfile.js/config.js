@@ -12,7 +12,7 @@ var bower_components  = './bower_components/';
 module.exports = {
   styles: {
     source: src+'**/*.scss',
-    dest: build,
+    build: build,
     dist: dist,
     sass: {
       includePaths: [
@@ -25,19 +25,19 @@ module.exports = {
 
   javascript: {
     source: src+'js/**/*',
-    dest: build+'js/',
+    build: build+'js/',
     dist: dist+'js/'
   },
 
   images: {
     source: src+'assets/**/*',
-    dest: build+'assets/',
+    build: build+'assets/',
     dist: dist+'assets/'
   },
 
   templates: {
     source: [src+'**/*.html','!'+src+'layouts/*','!'+src+'chunks/*'],
-    dest: build,
+    build: build,
     dist: dist
   },
 
