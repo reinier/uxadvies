@@ -1,0 +1,22 @@
+{
+  "name": "uxadvies",
+  "version": "0.0.0",
+  "homepage": "https://github.com/reinier/uxadvies",
+  "authors": [
+    "Reinier Ladan <reinierl@gmail.com>"
+  ],
+  "description": "source for uxadvies.nl",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bourbon": "~4.2.1",
+    "neat": "~1.7.1"
+  }
+}
