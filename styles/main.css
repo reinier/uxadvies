@@ -142,7 +142,6 @@ p {
 
 a {
   color: #005BFC;
-  text-decoration: none;
   transition: color 0.1s linear; }
   a:active, a:focus, a:hover {
     color: #003fb0; }
@@ -190,6 +189,9 @@ h2 {
 
 h3, h4 {
   margin-top: 0; }
+
+.telephone {
+  white-space: nowrap; }
 
 .page-part, footer, section[role="main"] {
   max-width: 650px;
@@ -262,6 +264,8 @@ h2 span {
 @media screen and (min-width: 1200px) {
   .infocard {
     padding-left: 220px; } }
+.infocard .telephone {
+  font-weight: bold; }
 
 .infocard picture {
   display: block;
@@ -291,10 +295,6 @@ h2 span {
     .infocard--small picture {
       top: 60px; } }
 
-.telephone {
-  white-space: nowrap;
-  font-weight: bold; }
-
 .intro {
   -webkit-font-smoothing: subpixel-antialiased;
   font-size: 1.1em; }
@@ -316,6 +316,7 @@ h2 span {
   color: #fff;
   border-radius: 2px;
   font-weight: 600;
+  text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out; }
@@ -371,12 +372,12 @@ h2 span {
   margin-top: 4em; }
 
 .contact-wrap h3 {
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
   font-size: 1.4em;
   font-weight: 400; }
 .contact-wrap p {
-  font-size: 1.2em;
-  margin-top: 1em; }
+  font-size: 1em;
+  margin-bottom: 1em; }
 .contact-wrap form {
   max-width: 68em;
   margin-left: auto;
@@ -408,11 +409,17 @@ h2 span {
   .contact-wrap form button[type="submit"] {
     background-image: url('../assets/images/paperplane.svg');
     background-repeat: no-repeat;
-    background-position: 12px 55%;
-    padding-left: 70px;
-    background-color: #FF6464; }
+    background-position: 35px 55%;
+    padding: 18px 40px 20px 90px;
+    padding-right: 40px;
+    background-color: #FF6464;
+    font-size: 1.2em; }
   .contact-wrap form textarea {
-    height: 17em; }
+    height: 17em;
+    width: 90%; }
+    @media screen and (min-width: 40.625em)  {
+      .contact-wrap form textarea {
+        width: 100%; } }
 .contact-wrap .send-form {
   margin-top: 1em; }
 
@@ -438,18 +445,6 @@ footer h4 {
 
 .footnote-go-back {
   white-space: nowrap; }
-
-.call-to-action {
-  font-size: 1.2em;
-  color: #000;
-  padding: 2em 2em 1em 2em;
-  margin-bottom: 2em;
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  background-color: #fff;
-  line-height: 1.5em; }
-  @media screen and (min-width: 650px) {
-    .call-to-action {
-      font-size: 1.5em; } }
 
 .cards {
   display: -webkit-box;
