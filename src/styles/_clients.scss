@@ -19,6 +19,8 @@
     color: #fff;
     border-radius: 2px;
     font-weight: 600;
+    text-decoration: none;
+    
     @include transition(all 0.3s ease-in-out);
 
     &:hover {

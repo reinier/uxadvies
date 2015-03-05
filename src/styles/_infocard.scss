@@ -35,6 +35,10 @@ h2 span {
     padding-left: 220px;
   }
 
+  .telephone {
+    font-weight: bold;
+  }
+
 }
 
 .infocard picture {
@@ -71,11 +75,6 @@ h2 span {
   @include bigass {
     top: 60px;
   }
-}
-
-.telephone {
-  white-space: nowrap;
-  font-weight: bold;
 }
 
 .intro {
