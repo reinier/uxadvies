@@ -1,8 +1,8 @@
-@import "bourbon";
+@import "bourbon/app/assets/stylesheets/bourbon";
 
 // Neat Settings -- uncomment if using Neat -- must be imported before Neat
 @import "bitters/grid-settings";
-@import "neat";
+@import "neat/app/assets/stylesheets/neat";
 
 @import "bitters/base";
 

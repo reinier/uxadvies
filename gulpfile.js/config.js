@@ -16,8 +16,7 @@ module.exports = {
     dist: dist,
     sass: {
       includePaths: [
-        bower_components+'bourbon/app/assets/stylesheets',
-        bower_components+'neat/app/assets/stylesheets',
+        bower_components,
         src+'styles/'
       ]
     }
