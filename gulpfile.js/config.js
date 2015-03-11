@@ -28,6 +28,12 @@ module.exports = {
     dist: dist+'js/'
   },
 
+  bower: {
+    source: [bower_components+'dialog-polyfill/**/*.css',bower_components+'dialog-polyfill/**/*.js'],
+    build: build+'vendor/',
+    dist: dist+'vendor/'
+  },
+
   images: {
     source: src+'assets/**/*',
     build: build+'assets/',
@@ -44,6 +50,7 @@ module.exports = {
     source: {
       styles : src+'**/*.scss',
       templates : src+'**/*.html',
+      images : src+'assets/**/*',
       javascript : src+'js/**/*'
     }
   },

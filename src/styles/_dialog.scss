@@ -1,0 +1,40 @@
+@include keyframes(fadeToNearBlack) {
+  to {
+    background: rgba(0,0,0,0.9);
+  }
+}
+
+@include keyframes(goBig) {
+  to {
+    opacity: 1;
+  }
+}
+
+dialog {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  opacity: 0;
+}
+
+dialog[open] {
+  @include animation(goBig 0.4s 0.2s forwards);
+  width: 100%;
+  margin: auto;
+  max-width: 1024px;
+}
+
+dialog[open]::backdrop {
+  @include animation(fadeToNearBlack 0.5s forwards);
+}
+
+.backdrop {
+  @include animation(fadeToNearBlack 0.5s forwards);
+}
+
+dialog img {
+  width: 100%;
+  height: auto;
+}

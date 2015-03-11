@@ -13,10 +13,17 @@
     <p>Deze pagina is leeg.</p>
   {% endblock %}
 
-  <script src="js/ga.js" defer></script>
+  <dialog id="js-cover">
+    <button id="js-closecover">Sluit</button>
+    <img src="" alt>
+  </dialog>
+
   <script src="js/loadCSS.js"></script>
   <script defer type="text/javascript">
     loadCSS("http://fonts.googleapis.com/css?family=Raleway:300,700,900", "all");
   </script>
+
+  <script src="js/dialog.js"></script>
+  <script src="js/ga.js" defer></script>
 </body>
 </html>
