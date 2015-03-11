@@ -61,10 +61,10 @@
     </ul>
 
     <div class="cards-wrap">
-      <div class="cards">
+      <div class="cards" id="js-examplecards">
         <div class="card">
           <div class="card-image">
-            <a href="assets/images/transition-to-agile.jpg"><img src="assets/images/transition-to-agile.jpg" alt=""></a>
+            <a href="assets/images/transition-to-agile.jpg"><img src="assets/images/thumbnail-transition-to-agile.jpg" alt=""></a>
           </div>
           <div class="card-header">
             Transitie naar agile
@@ -76,7 +76,7 @@
 
         <div class="card">
           <div class="card-image">
-            <a href="assets/images/infinite-loops.jpg"><img src="assets/images/infinite-loops.jpg" alt=""></a>
+            <a href="assets/images/infinite-loops.jpg"><img src="assets/images/thumbnail-infinite-loops.jpg" alt=""></a>
           </div>
           <div class="card-header">
             Infinite loops of UX
@@ -149,10 +149,17 @@
 
 
 
-  <script src="js/ga.js" defer></script>
+  <dialog id="js-cover">
+    <button id="js-closecover">Sluit</button>
+    <img src="" alt>
+  </dialog>
+
   <script src="js/loadCSS.js"></script>
   <script defer type="text/javascript">
     loadCSS("http://fonts.googleapis.com/css?family=Raleway:300,700,900", "all");
   </script>
+
+  <script src="js/dialog.js"></script>
+  <script src="js/ga.js" defer></script>
 </body>
 </html>
