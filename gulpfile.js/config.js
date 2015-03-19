@@ -57,6 +57,13 @@ module.exports = {
 
   connect: {
     server: build,
+    host: 'localhost',
+    port: '8080'
+  },
+
+  openbrowser: {
+    url: 'http://localhost:8080',
+    browser: 'google chrome'
   },
 
   clean: {
