@@ -346,25 +346,27 @@ h2 span {
   @media screen and (min-width: 1200px) {
     .examples h3 {
       width: 600px; } }
-.examples ul {
+.examples ul.example-list {
   font-size: 1.1em;
   margin: 0;
   padding: 0 0 0 2em; }
   @media screen and (min-width: 650px) {
-    .examples ul {
+    .examples ul.example-list {
       width: 400px;
       margin: 0 auto;
       font-size: 1.3em; } }
   @media screen and (min-width: 1200px) {
-    .examples ul {
+    .examples ul.example-list {
       width: 600px; } }
-  .examples ul li {
+  .examples ul.example-list li {
     margin-bottom: 0.3em; }
-    .examples ul li.participation, .examples ul li.socials {
+    .examples ul.example-list li.participation, .examples ul.example-list li.socials {
       margin-top: 1.5em; }
     @media screen and (min-width: 650px) {
-      .examples ul li {
+      .examples ul.example-list li {
         margin-bottom: 0.5em; } }
+  .examples ul.example-list em {
+    font-weight: 700; }
 .examples .cards-wrap {
   max-width: 800px;
   margin-right: auto;
